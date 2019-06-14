@@ -1,0 +1,6 @@
+file_upload.linktask:
+  title: 'File Upload'
+  route_name: file_upload.form
+  base_route: system.admin_content
+  weight: 3
+  

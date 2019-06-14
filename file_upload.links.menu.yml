@@ -1,0 +1,6 @@
+file_upload.admin:
+  title: 'File upload'
+  route_name: file_upload.form
+  description: 'File Upload'
+  menu_name: admin
+  parent: system.admin_content

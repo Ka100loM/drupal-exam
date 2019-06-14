@@ -1,0 +1,15 @@
+file_upload.form:
+  path: '/admin/content/file-dl'
+  defaults:
+    _title: 'File Upload'
+    _form: '\Drupal\file_upload\Form\FileUploadForm'
+  requirements:
+    _permission: 'administer file upload'
+
+file_upload.download:
+  path: '/my_file/{param}/file-dl'
+  defaults:
+    _title: 'File Download'
+    _controller: '\Drupal\file_upload\Controller\FileDownloadController::content'
+  requirements:
+    _access: 'TRUE' 
